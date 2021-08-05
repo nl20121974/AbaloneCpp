@@ -16,6 +16,6 @@ public:
 	virtual ~Piece();
 };
 
-} /* namespace boardgamemodels */
+}
 
 #endif /* PIECE_H_ */

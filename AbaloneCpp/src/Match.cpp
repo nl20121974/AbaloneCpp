@@ -15,7 +15,6 @@ Match::Match() {
 }
 
 Match::~Match() {
-	// TODO Auto-generated destructor stub
 }
 
-} /* namespace boardgamemodels */
+}

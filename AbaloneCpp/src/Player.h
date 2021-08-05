@@ -16,6 +16,6 @@ public:
 	virtual ~Player();
 };
 
-} /* namespace boardgamemodels */
+}
 
 #endif /* PLAYER_H_ */

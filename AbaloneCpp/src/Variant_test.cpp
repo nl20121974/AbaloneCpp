@@ -8,5 +8,4 @@
 #include "Variant.h"
 
 namespace boardgamemodels {
-
-} /* namespace boardgamemodels */
+}

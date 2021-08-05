@@ -16,7 +16,6 @@ Engine::Engine() {
 }
 
 Engine::~Engine() {
-	// TODO Auto-generated destructor stub
 }
 
 void Engine::NewBoard(int columns, int rows)

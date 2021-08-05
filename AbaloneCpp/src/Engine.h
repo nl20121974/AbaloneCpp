@@ -19,6 +19,6 @@ public:
 	void NewBoard(int columns, int rows);
 };
 
-} /* namespace boardgamemodels */
+}
 
 #endif /* ENGINE_H_ */

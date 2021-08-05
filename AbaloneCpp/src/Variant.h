@@ -16,6 +16,6 @@ public:
 	virtual ~Variant();
 };
 
-} /* namespace boardgamemodels */
+}
 
 #endif /* VARIANT_H_ */

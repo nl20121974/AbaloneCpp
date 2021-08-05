@@ -16,6 +16,7 @@ public:
 	Board(int columns, int rows);
 	int Tiles[][];
 	virtual ~Board();
+
 };
 
 }

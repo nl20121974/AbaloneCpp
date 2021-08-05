@@ -18,4 +18,4 @@ Piece::~Piece() {
 	// TODO Auto-generated destructor stub
 }
 
-} /* namespace boardgamemodels */
+}

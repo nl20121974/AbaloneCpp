@@ -18,4 +18,4 @@ Coordinates::~Coordinates() {
 	// TODO Auto-generated destructor stub
 }
 
-} /* namespace boardgamemodels */
+}

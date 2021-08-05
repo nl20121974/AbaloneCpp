@@ -16,6 +16,6 @@ public:
 	virtual ~Match();
 };
 
-} /* namespace boardgamemodels */
+}
 
 #endif /* MATCH_H_ */

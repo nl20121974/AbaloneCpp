@@ -18,4 +18,4 @@ Variant::~Variant() {
 	// TODO Auto-generated destructor stub
 }
 
-} /* namespace boardgamemodels */
+}

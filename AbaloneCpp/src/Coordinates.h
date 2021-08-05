@@ -16,6 +16,6 @@ public:
 	virtual ~Coordinates();
 };
 
-} /* namespace boardgamemodels */
+}
 
 #endif /* COORDINATES_H_ */
