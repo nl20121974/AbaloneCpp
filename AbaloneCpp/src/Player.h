@@ -8,12 +8,17 @@
 #ifndef PLAYER_H_
 #define PLAYER_H_
 
+#include <string>
+using std::string;
+
 namespace boardgamemodels {
 
 class Player {
 public:
 	Player();
 	virtual ~Player();
+	string Name;
+	int Elo;
 };
 
 }
