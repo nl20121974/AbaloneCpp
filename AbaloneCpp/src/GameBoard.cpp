@@ -1,20 +1,19 @@
 /*
- * Player.cpp
+ * Board.cpp
  *
  *  Created on: Aug 4, 2021
  *      Author: nl20121974
  */
 
-#include "Player.h"
+#include "GameBoard.h"
 
 namespace boardgamemodels {
 
-Player::Player() {
+GameBoard::GameBoard() {
 	// TODO Auto-generated constructor stub
-
 }
 
-Player::~Player() {
+GameBoard::~GameBoard() {
 	// TODO Auto-generated destructor stub
 }
 

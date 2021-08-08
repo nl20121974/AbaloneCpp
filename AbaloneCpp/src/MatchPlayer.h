@@ -5,22 +5,22 @@
  *      Author: nl20121974
  */
 
-#ifndef PLAYER_H_
-#define PLAYER_H_
+#ifndef MATCHPLAYER_H_
+#define MATCHPLAYER_H_
 
 #include <string>
 using std::string;
 
 namespace boardgamemodels {
 
-class Player {
+class MatchPlayer {
 public:
-	Player();
-	virtual ~Player();
+	MatchPlayer();
+	int Index;
 	string Name;
 	int Elo;
 };
 
 }
 
-#endif /* PLAYER_H_ */
+#endif /* MATCHPLAYER_H_ */

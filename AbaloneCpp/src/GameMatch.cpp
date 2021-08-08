@@ -1,21 +1,20 @@
 /*
- * Piece.cpp
+ * Match.cpp
  *
  *  Created on: Aug 4, 2021
  *      Author: nl20121974
  */
 
-#include "Piece.h"
+#include "GameMatch.h"
 
 namespace boardgamemodels {
 
-Piece::Piece() {
+GameMatch::GameMatch() {
 	// TODO Auto-generated constructor stub
 
 }
 
-Piece::~Piece() {
-	// TODO Auto-generated destructor stub
+GameMatch::~GameMatch() {
 }
 
 }

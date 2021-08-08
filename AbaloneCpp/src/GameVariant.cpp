@@ -1,20 +1,21 @@
 /*
- * Match.cpp
+ * Variant.cpp
  *
  *  Created on: Aug 4, 2021
  *      Author: nl20121974
  */
 
-#include "Match.h"
+#include "GameVariant.h"
 
 namespace boardgamemodels {
 
-Match::Match() {
+GameVariant::GameVariant() {
 	// TODO Auto-generated constructor stub
 
 }
 
-Match::~Match() {
+GameVariant::~GameVariant() {
+	// TODO Auto-generated destructor stub
 }
 
 }
