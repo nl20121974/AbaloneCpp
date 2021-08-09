@@ -10,7 +10,6 @@
 
 #include "BoardCoordinates.h"
 #include "GameMatch.h"
-#include "PlayerPiece.h"
 #include "BoardManager.h"
 #include "PlayerPiece.h"
 #include "PlayerMove.h"
