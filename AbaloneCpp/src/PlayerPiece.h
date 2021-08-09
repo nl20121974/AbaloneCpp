@@ -18,7 +18,6 @@ public:
 	PlayerPiece();
 	BoardCoordinates Coordinates;
 	MatchPlayer Player;
-	virtual ~PlayerPiece();
 };
 
 }

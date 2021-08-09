@@ -11,12 +11,12 @@
 namespace boardgamemodels {
 
 class BoardCoordinates {
-private:
 public:
+	BoardCoordinates();
 	BoardCoordinates(int column, int row);
 	int Column;
 	int Row;
-	friend bool operator ==(BoardCoordinates first, BoardCoordinates second);
+	friend bool operator ==(BoardCoordinates const& first, BoardCoordinates const& second);
 };
 
 }

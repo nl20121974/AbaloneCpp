@@ -24,6 +24,7 @@ private:
 public:
 	GameRule();
 	virtual ~GameRule();
+	//faire une liste de gamemove et toutes les tester dans le canmove de matchmanager (gamemove avec canmove/makemove)
 	//vector<PlayerMove> FindMoves(PlayerPiece piece);
 	//bool CanMove(PlayerMove move);
 	//void MakeMove(PlayerMove move);

@@ -13,13 +13,10 @@
 #include "BoardManager.h"
 #include "BoardCoordinates.h"
 
-using boardgamemodels::GameMatch;
-
 namespace boardgamemodels {
 
 MatchManager::MatchManager(GameMatch match) {
 	_match = match;
-
 }
 
 bool MatchManager::CanMove(PlayerPiece piece, PlayerMove move){
@@ -29,7 +26,7 @@ bool MatchManager::CanMove(PlayerPiece piece, PlayerMove move){
 		return false;
 	if ((*nextPiece).Player.Index != piece.Player.Index)
 		return false;
-	return this->CanMove(piece, move);
+	return this->CanMove(*nextPiece, move);
 }
 
 void MatchManager::MakeMove(PlayerPiece piece, PlayerMove move)

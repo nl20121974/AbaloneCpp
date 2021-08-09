@@ -30,7 +30,6 @@ public:
 	bool CanMove(PlayerPiece piece, PlayerMove move);
 	void MakeMove(PlayerPiece piece, PlayerMove move);
 	PlayerPiece* GetPieceAt(BoardCoordinates coordinates);
-	virtual ~MatchManager();
 };
 
 }

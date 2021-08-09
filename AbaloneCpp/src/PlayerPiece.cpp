@@ -6,10 +6,7 @@
  */
 
 
-#include "BoardCoordinates.h"
 #include "PlayerPiece.h"
-#include "BoardDirection.h"
 
 namespace boardgamemodels {
-
 }

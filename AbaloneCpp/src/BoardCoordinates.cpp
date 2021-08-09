@@ -9,9 +9,12 @@
 
 namespace boardgamemodels {
 
-BoardCoordinates::BoardCoordinates(int column, int row) {
-	Column = column;
-	Row = row;
+BoardCoordinates::BoardCoordinates(int column, int row) : Column(column), Row(row) {
 }
+
+bool operator ==(BoardCoordinates const& first, BoardCoordinates const& second) {
+	return true;
+}
+
 
 }
