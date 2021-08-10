@@ -13,6 +13,7 @@
 #include "BoardDirection.h"
 #include "PlayerMove.h"
 #include "PlayerPiece.h"
+#include "MoveBase.h"
 
 using std::vector;
 
@@ -23,6 +24,7 @@ private:
 	vector<BoardDirection> Directions;
 public:
 	GameRule();
+	vector<MoveBase> Moves;
 	virtual ~GameRule();
 	//faire une liste de gamemove et toutes les tester dans le canmove de matchmanager (gamemove avec canmove/makemove)
 	//vector<PlayerMove> FindMoves(PlayerPiece piece);
